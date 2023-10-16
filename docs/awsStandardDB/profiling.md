@@ -26,3 +26,8 @@ Our Script(28 threads):
 kraken2-build --standard --threads 28 --db $DBNAME
 ```
 
+
+
+![Image](../profilingpngs/stdout-kraken-buildb.png)
+
+
