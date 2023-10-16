@@ -49,7 +49,7 @@ Duration of process: 15 hs 10 min
 
 <figure>
   <img
-  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg"
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/cpu_utilization_time_start.png"
   alt="CPU Utilization.">
   <figcaption>CPU Utilization</figcaption>
 </figure>
