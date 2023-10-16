@@ -9,6 +9,8 @@ kraken2-build --standard --threads 32 --db $DBNAME
 Referenced EC2 image:</br> 
 Memory optimized instance: **r4.8xlarge**
 
+Our Data Base $DBNAME will be hosted on **AWS EFS** 
+
 Ec2 instance: 
 
 | Default vCPUs	    | Default CPU | Default CPU cores | Default threads per core  | Default threads per core  |
