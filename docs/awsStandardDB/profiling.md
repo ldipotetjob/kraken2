@@ -35,5 +35,24 @@ Standard output (stdout) running inside EC2 instance **r4.8xlarge** (writing on 
 
 ## Monitoring graphs (profiling)
 
+**Script executed**:
 
+```shell
+kraken2-build --standard --threads 28 --db $DBNAME
+```
+
+|      Start Time      |       End Time       | 
+| :--------------------| :-------------------:|
+| 2023-10-11 09:55 UTC | 2023-10-12 01:05 UTC |
+
+Duration of process: 15 hs 10 min 
+
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg"
+  alt="CPU Utilization.">
+  <figcaption>CPU Utilization</figcaption>
+</figure>
+
+ 
 
