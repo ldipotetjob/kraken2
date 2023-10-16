@@ -33,5 +33,5 @@ Standard output (stdout) running inside EC2 instance **r4.8xlarge** (writing on 
 
 ![Image](,,/../profilingpngs/stdout-kraken-buildb.png)
 
-## Most important indicators
+## Monitoring graphs (profiling)
 
