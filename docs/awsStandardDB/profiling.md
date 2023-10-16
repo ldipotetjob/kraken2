@@ -18,5 +18,11 @@ Ec2 instance:
 
 ref:  [CPU cores and threads per CPU core per instance type](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/cpu-options-supported-instances-values.html)
 
-Based on the information above, your actual implementation could be **nearly  30 threads, not 32**
+Based on the information above, with the actual implementation  **--threads 32**  can't use all threads availables in this process. So we are going to execute the process wit just 28 threads: 
+
+Our Script(28 threads):
+
+```shell
+kraken2-build --standard --threads 28 --db $DBNAME
+```
 
