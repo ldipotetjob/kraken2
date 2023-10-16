@@ -26,8 +26,8 @@ Our Script(28 threads):
 kraken2-build --standard --threads 28 --db $DBNAME
 ```
 
+Standard output (stdout): 
 
-
-![Image](../profilingpngs/stdout-kraken-buildb.png)
+![Image](,,/../profilingpngs/stdout-kraken-buildb.png)
 
 
