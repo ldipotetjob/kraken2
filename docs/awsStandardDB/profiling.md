@@ -29,9 +29,11 @@ Our Script(28 threads):
 kraken2-build --standard --threads 28 --db $DBNAME
 ```
 
-Standard output (stdout) running inside EC2 instance **r4.8xlarge** (writing on EFS): 
+Standard output (stdout) running inside EC2 instance **r4.8xlarge** (writing on EFS atached volume): 
 
 ![Image](,,/../profilingpngs/stdout-kraken-buildb.png)
 
 ## Monitoring graphs (profiling)
+
+
 
