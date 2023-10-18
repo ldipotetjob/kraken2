@@ -145,7 +145,9 @@ In our scenario, EFS is the storage where the EC2 instance will attach the volum
 </figure>
 </br>
 </br>
+
 ### Summary of main EFS metrics
+
 <figure>
   <img
   src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/efs-main-analysis.png"
