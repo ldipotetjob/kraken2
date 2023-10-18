@@ -11,3 +11,6 @@ We have 2 AWS solutions to reduce the prices/complexity of your construction:
 2. Manual construction configuring kraken2 at the instance user data
 
 [Reference to the previous architectural solutions](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg) 
+
+
+We support our opinions on the profiling information [gathered in the construction of Kraken2 Standard DB](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profiling.md)
