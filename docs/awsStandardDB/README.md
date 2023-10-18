@@ -1,5 +1,5 @@
 ## What is this document about?
-The purpose of this document is to guide you through the steps to create a new Kraken Standard DB on AWS and update existing documentation related to AWS EC2 instances where the process takes place.
+The purpose of this document is to guide you through the steps to create a new Kraken2 Standard DB on AWS and update existing documentation related to AWS EC2 instances where the process takes place.
 
 Some critical points to pay attention to:
 1. At some point the script demands **350 GB of storage** and finally you will need 285 GB to store your kraken2 Standar DB.
