@@ -41,6 +41,9 @@ Standard output (stdout) running inside EC2 instance **r4.8xlarge** (writing on 
 kraken2-build --standard --threads 28 --db $DBNAME
 ```
 
+[You can get a very close reference about each of the following metrics and its meaning here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/viewing_metrics_with_cloudwatch.html#ec2-cloudwatch-metrics)
+
+
 |      Start Time      |       End Time       | 
 | :--------------------| :-------------------:|
 | 2023-10-11 09:55 UTC | 2023-10-12 01:05 UTC |
