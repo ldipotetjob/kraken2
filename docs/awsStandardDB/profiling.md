@@ -1,21 +1,22 @@
+## <ins>Profiling content for AWS Ec2 and AWS EFS</ins>
 
-1. [Profiling information]
+1. [Profiling information](https://github.com/ldipotetjob/kraken2/edit/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profiling.md#profiling-information)
+2. [Ec2 instance](https://github.com/ldipotetjob/kraken2/edit/kraken2aws_profilingfr%C3%A5%C2%A9omv2.1.3/docs/awsStandardDB/profiling.md#ec2-instance)
 
 
-## Profiling information
+### Profiling information
 
-Information based on the Kraken2 documentation to create standar kraken db:
+Information based on the Kraken2 documentation when creating standard kraken2 db:
 
 ```shell
 kraken2-build --standard --threads 32 --db $DBNAME
 ```
+Our Data Base $DBNAME will be hosted on **AWS EFS** 
+
+### Ec2 instance: 
 
 Referenced EC2 image:</br> 
 Memory optimized instance: **r4.8xlarge**
-
-Our Data Base $DBNAME will be hosted on **AWS EFS** 
-
-Ec2 instance: 
 
 | Default vCPUs	    | Default CPU | Default CPU cores | Default threads per core  | Default threads per core  |
 | :---------------- | :---------: | :---------------: | :-----------------------: | :-----------------------: | 
