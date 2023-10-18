@@ -6,7 +6,7 @@
 
 ### Profiling information
 
-Information based on the Kraken2 documentation when creating standard kraken2 db:
+This is the profiling information based on the construction of Kraken2 Standard DB. We have followed the documentation when creating standard kraken2 db:
 
 ```shell
 kraken2-build --standard --threads 32 --db $DBNAME
@@ -26,6 +26,7 @@ references:
 1. [CPU cores and threads per CPU core per instance type](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/cpu-options-supported-instances-values.html)
 2. [AWS infrastructure to run kraken2 DB builder script](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg)
 
+### Why do we run the script with **--threads 28 instead of --threads 32**?
 Based on the information above, with the actual implementation  **--threads 32**  can't use all threads availables in this process. So we are going to execute the process wit just 28 threads: 
 
 Our Script(28 threads):
