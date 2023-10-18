@@ -1,6 +1,6 @@
 ## Profiling information
 
-Based on the Kraken documentation to create standar kraken db:
+Based on the Kraken2 documentation to create standar kraken db:
 
 ```shell
 kraken2-build --standard --threads 32 --db $DBNAME
@@ -97,5 +97,7 @@ Duration of process: 15 hs 10 min
   alt="Main analysis">
   <figcaption>Ec2 Instances Metrics</figcaption>
 </figure>
+</br>
+</br>
 
-
+NOTE: There are NOT EC2 disk operation because we are working with EFS attached Volume  
