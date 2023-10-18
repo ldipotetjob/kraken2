@@ -1,0 +1,97 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:eu-west-1:xxxxxxx:task-definition/krakenDBScriptTaskDef:1",
+    "containerDefinitions": [
+        {
+            "name": "kranke2",
+            "image": "xxxxxxx.dkr.ecr.eu-west-1.amazonaws.com/genomixcloud/kraken2:latest",
+            "cpu": 0,
+            "portMappings": [],
+            "essential": true,
+            "command": [
+                "/src/kraken2buildDB.sh"
+            ],
+            "environment": [],
+            "mountPoints": [
+                {
+                    "sourceVolume": "kraken2DB",
+                    "containerPath": "/data"
+                }
+            ],
+            "volumesFrom": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-create-group": "true",
+                    "awslogs-group": "/ecs/krakenDBScriptTaskDef",
+                    "awslogs-region": "eu-west-1",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            }
+        }
+    ],
+    "family": "genomixcloud-krakenDBScriptTaskDef",
+    "executionRoleArn": "arn:aws:iam::xxxxxxx:role/ecsTaskExecutionRole",
+    "networkMode": "bridge",
+    "revision": 17,
+    "volumes": [
+        {
+            "name": "kraken2DB",
+            "efsVolumeConfiguration": {
+                "fileSystemId": "fs-xxxxxxx8515",
+                "rootDirectory": "/",
+                "transitEncryption": "ENABLED",
+                "authorizationConfig": {}
+            }
+        }
+    ],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "ecs.capability.efsAuth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "ecs.capability.efs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.25"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2"
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "memory": "4096",
+    "registeredAt": "2023-10-10T14:44:28.397Z",
+    "registeredBy": "arn:aws:iam::xxxxxxx:user/adminuser",
+    "tags": [
+        {
+            "key": "cost-allocation",
+            "value": "krakenDBScriptTaskDef"
+        },
+        {
+            "key": "Name",
+            "value": "krakenDBScriptTaskDef"
+        }
+    ]
+}
