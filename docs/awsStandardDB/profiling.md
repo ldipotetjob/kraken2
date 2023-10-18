@@ -1,6 +1,10 @@
+
+1. [Profiling information]
+
+
 ## Profiling information
 
-Based on the Kraken2 documentation to create standar kraken db:
+Information based on the Kraken2 documentation to create standar kraken db:
 
 ```shell
 kraken2-build --standard --threads 32 --db $DBNAME
