@@ -102,6 +102,9 @@ Duration of process: 15 hs 10 min
   alt="Main analysis">
   <figcaption>Ec2 Instances Metrics</figcaption>
 </figure>
+
+</br>
+</br>
 </br>
 </br>
 
@@ -110,3 +113,35 @@ NOTE: There are NOT EC2 disk operation because we are working with EFS attached 
 ### EFS
 
 In our scenario, EFS is the storage where the EC2 instance will attach the volume and then store the standard Krakens database.
+
+</br>
+</br>
+
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/efs-throughput-type.png"
+  alt="efs-throughput-type">
+  <figcaption>Throughput by type</figcaption>
+</figure>
+</br>
+</br>
+</br>
+</br>
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/efs-storage.png"
+  alt="efs-storage">
+  <figcaption>Storage bytes</figcaption>
+</figure>
+</br>
+</br>
+</br>
+</br>
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/efs-IOPS-type.png"
+  alt="efs-IOPS-type">
+  <figcaption>IOPS by type(@see ref. graphic legend of Throughput by type)</figcaption>
+</figure>
+</br>
+</br>
