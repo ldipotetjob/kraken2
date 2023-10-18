@@ -115,6 +115,8 @@ NOTE: There are NOT EC2 disk operation because we are working with EFS attached 
 
 In our scenario, EFS is the storage where the EC2 instance will attach the volume and then store the standard Krakens database.
 
+[You can get a very close reference about each EFS metrics and its meaning here](https://docs.aws.amazon.com/efs/latest/ug/monitoring-metric-math.html)
+
 </br>
 </br>
 
