@@ -7,7 +7,7 @@ Some critical points to pay attention to:
 3. Your CPU utilization is about 70%-80% for almost 7hs using EC2 **r4.8xlarge**.
 
 We have 2 AWS solutions to reduce the prices/complexity of your construction:
-1. AWS ECS + Task Definition (You don't need to create any service) (automate the Standar DB construction )
+1. AWS ECS + [Task Definition](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/krakenDBScriptTaskDef.json) (You don't need to create any service)(automated construction of the kraken2 standard database)
 2. Manual construction configuring kraken2 at the instance user data
 
-[Reference to the previous explanation](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg) 
+[Reference to the previous architectural solutions](https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/kraken-ecs-efs.jpg) 
