@@ -57,5 +57,45 @@ Duration of process: 15 hs 10 min
   <figcaption>CPU Utilization</figcaption>
 </figure>
 
- 
+</br>
+</br>
+</br>
+</br>
+
+| Network in(GB) (peak value) | Network out(GB) (peak value) | 
+| :---------------------------| :--------------------------: | 
+|             4.56            |           7.82               | 
+
+
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/network-in.png"
+  alt="Network in.">
+  <figcaption>Network in</figcaption>
+</figure>
+
+</br>
+</br>
+</br>
+</br>
+
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/network-out.png"
+  alt="Network out.">
+  <figcaption>Network out</figcaption>
+</figure>
+
+</br>
+</br>
+
+### Summary of main EC2 metrics
+
+<figure>
+  <img
+  src="https://github.com/ldipotetjob/kraken2/blob/kraken2aws_profilingfromv2.1.3/docs/awsStandardDB/profilingpngs/main_analysis.png"
+  alt="Main analysis">
+  <figcaption>Ec2 Instances Metrics</figcaption>
+</figure>
+
 
